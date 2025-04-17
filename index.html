@@ -16,7 +16,7 @@ rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
 integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
 crossorigin="anonymous" referrerpolicy="no-referrer" />
-<script src="./scrip."></script>
+<script src="./scrip.js"></script>
 <link rel="stylesheet" href="./style.css">
     <title>Construction</title>
 </head>
@@ -293,24 +293,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
   <p class="designer">&#169; Copyright Okwiri Graphics Company 2025 |. All Rights Reserved Website Designed By Fredrick Okwiri Odhiambo</p>
   </footer>
     <script>
-        function doPost(e) {
-  var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
-  var data = JSON.parse(e.postData.contents);
-
-  sheet.appendRow([
-    new Date(), // Timestamp
-    data.FirstName,
-    data.LastName,
-    data.PhoneNumber,
-    data.Email,
-    data.Message
-  ]);
-
-  return ContentService.createTextOutput(
-    JSON.stringify({ status: "success" })
-  ).setMimeType(ContentService.MimeType.JSON);
-}
-
+     
     </script>
 </body>
 </html>
