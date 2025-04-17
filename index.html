@@ -295,6 +295,12 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script>
      document.getElementById("myform").addEventListener("submit", function(e) {
   e.preventDefault();
+    let FirstName = document.getElementById("FirstName");
+    let LastName = document.getElementById("LastName");
+    let PhoneNumber = document.getElementById("PhoneNumber");
+    let Email = document.getElementById("Email");
+    let Message = document.getElementById("Message");     
+    
 
   const data = {
     FirstName: document.getElementById("FirstName").value,
