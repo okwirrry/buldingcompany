@@ -162,7 +162,7 @@ nav{
 }
 .sub i:hover{
   color: orange;
-  padding: 10px;
+  padding: 5px;
   filter: contrast(0.7);
 }
 .footer-content ul li a:hover{
@@ -179,6 +179,7 @@ footer .designer{
   background-color: grey;
   color: white;
   width: 100%;
+    bottom:0;
 }
 .contact{
   padding: 20px;
