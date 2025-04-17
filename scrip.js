@@ -10,7 +10,7 @@ const form = document.getElementById("myform");
       Message: document.getElementById("Message").value,
     };
 
-    fetch("https://script.google.com/macros/s/AKfycbzx5q_JlpNGBZzSRsrmRJ3z5m4EXrBk-ZXNWDNLmOiVaOnDciq2XAXzXRNAkZ7Gis2w/exec", {
+    fetch("https://script.google.com/macros/s/AKfycbyRPhPPm9t8RJzVsivlPyysW6-inlpdWbRINkW7vtblu5YwLUtlhIATfnvqJZACODF8/exec", {
       method: "POST",
       body: JSON.stringify(data),
       headers: { "Content-Type": "application/json" },
