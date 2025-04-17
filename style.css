@@ -5,12 +5,7 @@
     box-sizing: border-box;
     cursor: pointer;
   }
-  body{
-    width: 100%;
-  }
-  #navbarNav{
-  
-  }
+ 
 .carousel-inner .carousel-item img{
   width: 100%;
   height:95dvh;
@@ -136,7 +131,7 @@ nav{
   display: flex;
   flex-wrap: wrap;
   padding: 15px;
-  width: 100%;
+  width: auto;
   background-color: #2b1e1a;
   color: white;
   margin-top: 20px;
@@ -238,7 +233,11 @@ iframe{
   }
 
   /* You can also add other responsive tweaks here */
-
+.picture img{
+  width: auto;
+  border-radius: 10px;
+  background-size: cover;
+}
    
   
 }
