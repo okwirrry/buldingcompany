@@ -156,9 +156,10 @@ nav{
  
 }
 .sub i{
-  font-size: 25px;
+  font-size: 28px;
   padding: 15px;
   color: blue;
+    border-radius:50%;
 }
 .sub i:hover{
   color: orange;
@@ -245,3 +246,24 @@ iframe{
 
   
 }
+@media screen and (orientation: landscape) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: #000;
+    color: #fff;
+  }
+
+  body::before {
+    content: "Please rotate your device to portrait mode.";
+    font-size: 1.5rem;
+  }
+
+  #content {
+    display: none;
+  }
+}
+
