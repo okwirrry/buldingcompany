@@ -249,24 +249,5 @@ iframe{
 
   
 }
-@media screen and (orientation: landscape) {
-  body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    text-align: center;
-    background: #000;
-    color: #fff;
-  }
 
-  body::before {
-    content: "Please rotate your device to portrait mode.";
-    font-size: 1.5rem;
-  }
-
-  #content {
-    display: none;
-  }
-}
 
