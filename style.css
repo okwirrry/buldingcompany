@@ -233,11 +233,7 @@ iframe{
   }
 
   /* You can also add other responsive tweaks here */
-.picture img{
-  width: auto;
-  border-radius: 10px;
-  background-size: cover;
-}
+
    
   
 }
