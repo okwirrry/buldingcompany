@@ -215,6 +215,7 @@ iframe{
 @media only screen and (max-width: 600px) {
   body {
     font-size: 14px; /* slightly smaller font for small screens */
+      width:100%;
   }
 
   h4 {
