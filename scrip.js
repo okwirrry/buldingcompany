@@ -1,3 +1,4 @@
+function submitdata(){
 const form = document.getElementById("myform");
   form.addEventListener("submit", function(e) {
     e.preventDefault();
@@ -25,3 +26,4 @@ const form = document.getElementById("myform");
       alert("Something went wrong.");
     });
   });
+}
