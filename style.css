@@ -198,7 +198,8 @@ button{
 }
 .contact-form{
 
-background: linear-gradient(to right, #da4453, #89216b); 
+
+    background: linear-gradient(to right, #159957, #155799);
 
   border-radius: 10px;
   border: none;
